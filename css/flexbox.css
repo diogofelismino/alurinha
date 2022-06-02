@@ -1,0 +1,182 @@
+.cabecalhoPrincipal{
+
+    
+    display: flex;
+    
+    
+
+}
+
+
+.container{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+
+.conteudoPrincipal > .container{
+    display: flex;
+    flex-direction: column;
+    
+    
+    
+}
+
+.conteudoPrincipal-cursos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: start;
+    padding-left: 40px;
+  
+}
+
+.conteudoPrincipal-cursos-link{
+    width: 23%;
+}
+
+
+
+
+/*jeito correto*/
+.videoSobre .container2{
+    display: flex;
+}
+
+.videoSobre-sobre{
+
+display: flex;
+flex-grow: 1;
+flex-direction: column;
+text-align: center;
+justify-content: space-between;
+color: aliceblue;
+
+}
+
+.videoSobre-sobre-list{
+    flex-grow: 1;
+}
+
+/*jeito duvidoso*/
+/* .videoSobre-sobre{
+    
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 10px;
+    text-align: center;
+    flex-grow: 2;
+}
+
+.videoSobre-sobre-list{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+    
+}
+
+.videoSobre-sobre-item{
+    width: 100%; 
+    text-align: center;
+}
+
+.videoSobre-sobre-title{
+    height: 50px;
+}
+.videoSobre-button{
+    margin-top: 70px;
+    width: 100%;
+    
+} */
+
+
+
+
+.rodapePrincipal-navMap-list {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    height: 255px;
+}
+
+
+
+
+/*jeito correto*/
+.rodapePrincipal-patrocinadores-list{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+
+
+.rodapePrincipal-contatoForm-fieldset{
+    display: flex;
+}
+
+
+
+
+
+
+
+
+
+
+.cabecalhoPrincipal-titulo{
+
+    
+    text-align: start;
+    
+    
+
+}
+
+
+.cabecalhoPrincipal-nav{
+    
+    display: flex;
+    justify-content: end;
+    
+    
+    
+    
+
+}
+
+
+
+
+@media (max-width: 768px) and (min-width: 540px){
+
+    .conteudoPrincipal-cursos-link{
+        width: 100%;
+    }
+    
+    .videoSobre .container2{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .rodapePrincipal-navMap-list {
+        flex-wrap: nowrap;
+        height: auto;
+        
+    }
+    .rodapePrincipal-patrocinadores-list{
+        flex-wrap: wrap;
+    }
+
+
+}
+
